@@ -135,7 +135,7 @@ def main():
 			target_parse = " --target " # Bettercap target parse . This variable will be wiped if the user want to perform MITM ATTACK on all the network. 
 
 			print ("\033[1;32m\n[+] Please choose a target (e.g. 192.168.1.10). Enter 'help' for more information.\n\033[1;m")
-			target_ips = raw_input("\033[1;36m\033[4mXero\033[0m\033[1;36m ➮ \033[1;m").strip()
+			target_ips = input("\033[1;36m\033[4mXero\033[0m\033[1;36m ➮ \033[1;m").strip()
 			
 			if target_ips == "back":
 				home()
@@ -177,7 +177,7 @@ def main():
 							
 
 							print("\033[1;32m\n[+] Enter 'run' to execute the 'pscan' command.\n\033[1;m")
-							action_pscan = raw_input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mpscan\033[0m\033[1;36m ➮ \033[1;m").strip()#ip to scan
+							action_pscan = input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mpscan\033[0m\033[1;36m ➮ \033[1;m").strip()#ip to scan
 							if action_pscan == "back":
 								option()
 							elif action_pscan == "exit":
@@ -246,7 +246,7 @@ def main():
 							print("\033[1;32m\n[+] Enter 'run' to execute the 'dos' command.\n\033[1;m")
 							
 
-							action_dos = raw_input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mdos\033[0m\033[1;36m ➮ \033[1;m").strip() 
+							action_dos = input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mdos\033[0m\033[1;36m ➮ \033[1;m").strip() 
 
 							if action_dos == "back":
 								option()
@@ -284,7 +284,7 @@ def main():
 							
 							print("\033[1;32m\n[+] Enter 'run' to execute the 'ping' command.\n\033[1;m")
 
-							action_ping = raw_input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mping\033[0m\033[1;36m ➮ \033[1;m").strip() 
+							action_ping = input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mping\033[0m\033[1;36m ➮ \033[1;m").strip() 
 
 							if action_ping == "back":
 								option()
@@ -328,7 +328,7 @@ def main():
 └══════════════════════════════════════════════════════════════┘     \033[1;m""")
 						def inject_html():
 							print("\033[1;32m\n[+] Enter 'run' to execute the 'injecthtml' command.\n\033[1;m")
-							action_inject = raw_input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4minjecthtml\033[0m\033[1;36m ➮ \033[1;m").strip() 
+							action_inject = input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4minjecthtml\033[0m\033[1;36m ➮ \033[1;m").strip() 
 							if action_inject == "back":
 								option()
 							elif action_inject == "exit":
@@ -369,7 +369,7 @@ def main():
 └══════════════════════════════════════════════════════════════┘     \033[1;m""")
 						def rdownload():
 							print("\033[1;32m\n[+] Please type 'run' to execute the 'rdownload' command.\n\033[1;m")
-							action_rdownload = raw_input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mrdownload\033[0m\033[1;36m ➮ \033[1;m").strip() 
+							action_rdownload = input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mrdownload\033[0m\033[1;36m ➮ \033[1;m").strip() 
 							if action_rdownload == "back":
 								option()
 							elif action_rdownload == "exit":
@@ -410,7 +410,7 @@ def main():
 
 						def snif():
 							print("\033[1;32m\n[+] Please type 'run' to execute the 'sniff' command.\n\033[1;m")
-							action_snif = raw_input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4msniff\033[0m\033[1;36m ➮ \033[1;m").strip()
+							action_snif = input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4msniff\033[0m\033[1;36m ➮ \033[1;m").strip()
 							if action_snif == "back":
 								option()
 							elif action_snif == "exit":
@@ -522,7 +522,7 @@ def main():
 └══════════════════════════════════════════════════════════════┘     \033[1;m""")
 						def dspoof():
 							print("\033[1;32m\n[+] Enter 'run' to execute the 'dspoof' command.\n\033[1;m")
-							action_dspoof = raw_input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mdspoof\033[0m\033[1;36m ➮ \033[1;m").strip()
+							action_dspoof = input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mdspoof\033[0m\033[1;36m ➮ \033[1;m").strip()
 							if action_dspoof == "back":
 								option()
 							elif action_dspoof == "exit":
@@ -556,7 +556,7 @@ def main():
 └══════════════════════════════════════════════════════════════┘     \033[1;m""")
 						def yplay():
 							print("\033[1;32m\n[+] Enter 'run' to execute the 'yplay' command.\n\033[1;m")
-							action_yplay = raw_input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4myplay\033[0m\033[1;36m ➮ \033[1;m").strip()
+							action_yplay = input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4myplay\033[0m\033[1;36m ➮ \033[1;m").strip()
 							if action_yplay == "back":
 								option()
 							elif action_yplay == "exit":
@@ -565,7 +565,7 @@ def main():
 								home()
 							elif action_yplay == "run":
 								print("\033[1;32m\n[+] Insert a youtube video ID. (e.g. NvhZu5M41Z8)\n\033[1;m")
-								video_id = raw_input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4myplay\033[0m\033[1;36m ➮ \033[1;m").strip()
+								video_id = input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4myplay\033[0m\033[1;36m ➮ \033[1;m").strip()
 								if video_id == "back":
 									option()
 								elif video_id == "": # if raw = null
@@ -600,7 +600,7 @@ def main():
 └══════════════════════════════════════════════════════════════┘     \033[1;m""")
 						def replace():
 							print("\033[1;32m\n[+] Enter 'run' to execute the 'replace' command.\n\033[1;m")
-							action_replace = raw_input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mreplace\033[0m\033[1;36m ➮ \033[1;m").strip()
+							action_replace = input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mreplace\033[0m\033[1;36m ➮ \033[1;m").strip()
 							if action_replace == "back":
 								option()
 							elif action_replace == "exit":
@@ -609,7 +609,7 @@ def main():
 								home()
 							elif action_replace == "run":
 								print("\033[1;32m\n[+] Insert your image path. (e.g. /home/capitansalami/pictures/fun.png)\n\033[1;m")
-								img_replace = raw_input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mreplace\033[0m\033[1;36m ➮ \033[1;m")
+								img_replace = input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mreplace\033[0m\033[1;36m ➮ \033[1;m")
 								img_replace = img_replace.replace("'","")
 								if img_replace == "back":
 									replace()
@@ -645,7 +645,7 @@ def main():
 └══════════════════════════════════════════════════════════════┘     \033[1;m""")
 						def driftnet():
 							print("\033[1;32m\n[+] Enter 'run' to execute the 'driftnet' command.\n\033[1;m")
-							action_driftnet = raw_input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mdriftnet\033[0m\033[1;36m ➮ \033[1;m").strip()
+							action_driftnet = input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mdriftnet\033[0m\033[1;36m ➮ \033[1;m").strip()
 							if action_driftnet == "back":
 								option()
 							elif action_driftnet == "exit":
@@ -675,7 +675,7 @@ def main():
 └══════════════════════════════════════════════════════════════┘     \033[1;m""")
 						def shakescreen():
 							print("\033[1;32m\n[+] Enter 'run' to execute the 'move' command.\n\033[1;m")
-							action_shakescreen = raw_input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mshakescreen\033[0m\033[1;36m ➮ \033[1;m").strip()
+							action_shakescreen = input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mshakescreen\033[0m\033[1;36m ➮ \033[1;m").strip()
 							if action_shakescreen == "back":
 								option()
 							elif action_shakescreen == "exit":
@@ -703,7 +703,7 @@ def main():
 └══════════════════════════════════════════════════════════════┘     \033[1;m""")
 						def inject_j():
 							print("\033[1;32m\n[+] Enter 'run' to execute the 'injectjs' command.\n\033[1;m")
-							action_inject_j = raw_input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4minjectjs\033[0m\033[1;36m ➮ \033[1;m").strip()
+							action_inject_j = input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4minjectjs\033[0m\033[1;36m ➮ \033[1;m").strip()
 							if action_inject_j == "back":
 								option()
 							elif action_inject_j == "exit":
@@ -712,7 +712,7 @@ def main():
 								home()
 							elif action_inject_j == "run":
 								print("\033[1;32m\n[+] Specify the file containing js code you would like to inject.\n\033[1;m")
-								js_file = raw_input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4minjectjs\033[0m\033[1;36m ➮ \033[1;m")
+								js_file = input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4minjectjs\033[0m\033[1;36m ➮ \033[1;m")
 								js_file = js_file.replace("'","")
 								if js_file == "back":
 									inject_j()
@@ -742,7 +742,7 @@ def main():
 └══════════════════════════════════════════════════════════════┘     \033[1;m""")
 						def deface():
 							print("\033[1;32m\n[+] Enter 'run' to execute the 'deface' command.\n\033[1;m")
-							action_deface = raw_input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mdeface\033[0m\033[1;36m ➮ \033[1;m").strip()
+							action_deface = input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mdeface\033[0m\033[1;36m ➮ \033[1;m").strip()
 							if action_deface == "back":
 								option()
 							elif action_deface == "exit":
@@ -753,7 +753,7 @@ def main():
 								print("\033[1;32m\n[+] Specify the file containing your defacement code .\033[1;m")
 								print("\033[1;33m\n[!] Your file should not contain Javascript code .\n\033[1;m")
 								
-								file_deface = raw_input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mdeface\033[0m\033[1;36m ➮ \033[1;m")
+								file_deface = input("\033[1;36m\033[4mXero\033[0m»\033[1;36m\033[4mmodules\033[0m»\033[1;36m\033[4mdeface\033[0m\033[1;36m ➮ \033[1;m")
 								
 								if file_deface == "back":
 									option()
@@ -863,7 +863,7 @@ deface      :  Overwrite all web pages with your HTML code\n\033[1;m"""]
 		def cmd0():
 			while True:
 				print("\033[1;32m\n[+] Please type 'help' to view commands.\n\033[1;m")
-				cmd_0 = raw_input("\033[1;36m\033[4mXero\033[0m\033[1;36m ➮ \033[1;m").strip()
+				cmd_0 = input("\033[1;36m\033[4mXero\033[0m\033[1;36m ➮ \033[1;m").strip()
 				if cmd_0 == "scan": # Map the network
 					print("\033[1;34m\n[++] Mapping your network ... \n\033[1;m")
 					scan()
